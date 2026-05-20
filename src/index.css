@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Custom utility styles for our project to match Figma exactly */
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #e5e7eb; /* default light grey background */
+  color: #1f2937;
+}
+
+/* Ensure full screen height */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

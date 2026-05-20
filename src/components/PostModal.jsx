@@ -68,7 +68,6 @@ export default function PostModal({ isOpen, onClose, onSubmit, post }) {
           )}
 
           <div className="flex items-center justify-center gap-4 mt-2">
-            
             <button
               type="button"
               onClick={onClose}
@@ -82,11 +81,8 @@ export default function PostModal({ isOpen, onClose, onSubmit, post }) {
             >
               {post ? 'Guardar' : 'Crear usuario'}
             </button>
-
           </div>
-
         </form>
-
       </div>
     </div>
   );

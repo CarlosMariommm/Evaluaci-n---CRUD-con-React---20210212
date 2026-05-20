@@ -1,5 +1,7 @@
 import React from 'react';
 
+/*Este no puede hacer /*/
+
 export default function Welcome({ username, onContinue, illustrationUrl }) {
   const isCustomIllustration = illustrationUrl && (illustrationUrl.startsWith('http') || illustrationUrl.startsWith('data:'));
   const illustrationStyle = isCustomIllustration ? {
